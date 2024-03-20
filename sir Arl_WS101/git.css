@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://www.openaccessgovernment.org/wp-content/uploads/2023/10/iStock-1394287943-scaled.jpg');
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white;
+}
+.intro{ 
+    width: 400px;
+    height: auto;
+    border: hidden;
+    margin-left: 65%;
+    margin-top: 20%;
+    left: 28%;
+    word-spacing: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 62px -2px,
+    rgba(0, 0, 0, 0.3) 0px 83px 57px -3px;
+}
+.intro .prof{
+    font-size: 500%;
+}.animateds-button {
+    position: relative;
+    margin-top: 4%;
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 0 0 0 2px #fff;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .animateds-button span:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .animateds-button span:first-child {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .animateds-button:hover {
+    box-shadow: 0 0 0 5px #2195f360;
+    color: #000;
+  }
+  
+  .animateds-button:active {
+    scale: 0.95;
+  }
+  
+  .animateds-button:hover span:last-child {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+  } 
+.animated-button {
+    position: relative;
+    margin-top: 4%;
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #000;
+    box-shadow: 0 0 0 2px #000;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .animated-button span:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .animated-button span:first-child {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .animated-button:hover {
+    box-shadow: 0 0 0 5px #2195f360;
+    color: #000;
+  }
+  
+  .animated-button:active {
+    scale: 0.95;
+  }
+  
+  .animated-button:hover span:last-child {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+  }  
+
+  .me {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: 50%;
+    height: 80%;
+    padding-right: 5%;
+}
+.pro{
+    border: hidden;
+    margin-top: 30%;
+    margin-left: 43%;
+    font-size: 350%;
+}
+.wrapp, #wrappe, .wrapper {
+    position: relative;
+    width: calc(33.33% - 40px);
+    height: auto;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.wrapp img, #wrappe img, .wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.wrapp p, #wrappe p, .wrapper p {
+    position: absolute;
+    bottom: -100%;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 18px 18px;
+    transition: bottom 0.3s ease;
+}
+.wrapp:hover button.animated-button,
+#wrappe:hover button.animated-button,
+.wrapper:hover button.animated-button {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+.wrapp:hover p, #wrappe:hover p, .wrapper:hover p {
+    bottom: 0;
+}
